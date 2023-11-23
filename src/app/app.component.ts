@@ -6,9 +6,9 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  templateUrl: './main.html',
+  styleUrl: './../styles.scss'
 })
 export class AppComponent {
-  title = 'KyleAngularApp';
+  name = 'Kyle';
 }
