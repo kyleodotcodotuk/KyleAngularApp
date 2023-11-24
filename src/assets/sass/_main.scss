@@ -1,10 +1,15 @@
+:root {
+	font-family: $main-font;
+}
+
 body {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 	background-color: rgb(255, 226, 226);
 }
 
 .clearfix {
-	overflow: hidden;
+	// overflow: hidden;
+	clear: both;
 }
 
 .wrapper {
@@ -19,6 +24,7 @@ body {
 
 img {
 	display: block;
+	border-radius: $border-radius;
 	box-shadow: 1px 0 5px 1px rgb(100, 100, 100);
 }
 
