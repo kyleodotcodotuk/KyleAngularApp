@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
+import { RouterOutlet } from '@angular/router'; 
 
 @Component({
   selector: 'website',
@@ -9,6 +9,6 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './main.html',
   styleUrl: './../styles.scss'
 })
-export class AppComponent {
+export class MyName {
   name = 'Kyle';
-}
+} 

@@ -1,4 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+/* Reset */
 
 @import '../src/assets/css/reset.css';
-@import '../src/assets/sass/main.scss';
+
+/* All SASS */
+
+@import '../src/assets/sass/all.scss'; 

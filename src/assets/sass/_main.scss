@@ -1,0 +1,43 @@
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: rgb(255, 226, 226);
+}
+
+.clearfix {
+	overflow: hidden;
+}
+
+.wrapper {
+	max-width: 65vw;
+	margin: 0 auto;
+	@extend .clearfix;
+}
+
+.flow>*+* {
+	margin-block-start: 1.4em;
+}
+
+img {
+	display: block;
+	box-shadow: 1px 0 5px 1px rgb(100, 100, 100);
+}
+
+p {
+	margin: 1em 0 0 0;
+}
+
+h1 {
+	font-size: 2.4em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+.content-area {
+	@extend .flow;
+}
